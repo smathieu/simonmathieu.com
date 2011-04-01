@@ -49,6 +49,10 @@ a {
   color: #32672B;
 }
 
+table thead tr td {
+  font-weight: bold;
+}
+
 a:hover {
   color: #51A744;
 }
@@ -475,7 +479,7 @@ div#footer-links p {
 
 .sidebar {
   width: 280px;
-  padding: 25px 0 0;
+  padding: 0px 0 0;
   float: right;
 }
 
@@ -558,4 +562,12 @@ div#footer-links p {
 .sidebar h4.h4-green {
   background: #48913C url('images/h4.png') repeat-x center;
   border-bottom: 1px solid #2C5A26;
+}
+
+#tweet_list {
+  line-height: 0;
+}
+
+.loading {
+  text-align: center;
 }
