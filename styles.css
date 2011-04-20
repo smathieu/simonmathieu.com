@@ -477,7 +477,7 @@ div#footer-links p {
 }
 
 
-.sidebar {
+.right_sidebar {
   width: 280px;
   padding: 0px 0 0;
   float: right;
@@ -575,3 +575,20 @@ div#footer-links p {
 .loading {
   text-align: center;
 }
+
+.blog {
+  background-color: #FFFFCC;
+  text-align: center;
+  width: 600px;
+  margin: 10px auto -1px auto;
+  height: 20px;
+}
+
+.new_blog {
+  color: red;
+}
+
+.new_blog_tile a:link {
+  color: black;
+}
+
