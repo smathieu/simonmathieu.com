@@ -568,6 +568,10 @@ div#footer-links p {
   line-height: 0;
 }
 
+#twitter_sidebar {
+  clear:both;
+}
+
 .loading {
   text-align: center;
 }
