@@ -12,7 +12,7 @@ body {
 }
 
 body.noheader {
-  background: #FFF url('images/body-noheader.png') repeat-x scroll top left;
+  background: #FFF url('body-noheader.png') repeat-x scroll top left;
 }
 
 * {
@@ -32,7 +32,7 @@ th, td {
 
 th {
   color: #fff;
-  background: #48913C url(images/h4.png) repeat-x scroll center center;
+  background: #48913C url(h4.png) repeat-x scroll center center;
 }
 
 td {
@@ -100,7 +100,7 @@ form input, form select, form textarea {
 
 form input.formbutton {
   border: none;
-  background: #48913C url(images/h4.png) repeat-x scroll center center;
+  background: #48913C url(h4.png) repeat-x scroll center center;
   color: #ffffff;
   font-weight: bold;
   padding: 5px 8px;
@@ -199,7 +199,7 @@ ul.styledlist {
 }
 
 ul.styledlist li {
-  background: #fff url('images/list-item.gif') no-repeat scroll left center;
+  background: #fff url('list-item.gif') no-repeat scroll left center;
   padding-left: 15px;
   padding-bottom: 0;
   margin-bottom: 5px;
@@ -288,12 +288,12 @@ ul.styledlist li {
 }
 
 #nav ul li a.has_submenu {
-  background: transparent url('images/submenu-item.gif') no-repeat scroll right center;
+  background: transparent url('submenu-item.gif') no-repeat scroll right center;
   padding-right: 30px;
 }
 
 #nav ul li a.has_submenu:hover, #nav ul li.sfHover a.has_submenu {
-  background-image: url('images/submenu-item-hover.gif');
+  background-image: url('submenu-item-hover.gif');
 }
 
 
@@ -556,11 +556,11 @@ div#footer-links p {
   line-height: 1.9em;
   padding: 5px 5px 5px 10px;
   font-weight: bold;
-  background: #333 url('images/h4-black.png') repeat-x center;
+  background: #333 url('h4-black.png') repeat-x center;
 }
 
 .sidebar h4.h4-green {
-  background: #48913C url('images/h4.png') repeat-x center;
+  background: #48913C url('h4.png') repeat-x center;
   border-bottom: 1px solid #2C5A26;
 }
 
