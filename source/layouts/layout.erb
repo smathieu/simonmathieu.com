@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Simon Mathieu</title>
+        <%= stylesheet_link_tag 'all' %>
+        <%= javascript_include_tag "all", "jquery.linkify-1.0-twitter-min", "tumblr", "app", "jquery.linkify-1.0-twitter", "twitter", "jquery.linkify-1.0-min" %>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js">
+        </script>
+        <script type="text/javascript" src="scripts/app.js">
+        </script>
+        <script type="text/javascript" src="scripts/linkify/jquery.linkify-1.0-min.js">
+        </script>
+        <script type="text/javascript" src="scripts/twitter.js">
+        </script>
+        <script type="text/javascript" src="scripts/tumblr.js">
+        </script>
+    </head>
+
+    <body class="noheader">
+        <div id="container">
+            <div id="header">
+                <h1><a href="/">Simon Mathieu</a></h1>
+                <h2>Software Developer</h2>
+                <div class="clear"></div>
+                <div class="blog" id="blog">
+                    <span class="new_blog">New blog post:</span>
+                    <span id="new_blog_tile">
+                        How I learned about the bomb and learned to love it. 
+                    </span>
+                </div>
+            </div>
+            <div id="nav">
+                <ul class="sf-menu dropdown">
+                    <li class="selected"><a href="#about_me">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div id="body">
+                <div id="content">
+                    <div class="box">
+                      <%= yield %>
+                    </div>
+                </div>
+                <div class="right_sidebar">
+                    <div class="sidebar">
+                        <ul>	
+                            <li>
+                            <h4><span>Quick Links</span></h4>
+                            <ul class="blocklist">
+                                <li>
+                                <a href = "http://blog.simonmathieu.com/">
+                                    <img src="images/tumblr.png"/>
+                                </a>
+                                <li/>
+                                <li>
+                                <a href = "http://ca.linkedin.com/in/simonmathieu">
+                                    <img src="images/linkedin.png"/>
+                                </a>
+                                <li/>
+                                <li>
+                                <a href="http://twitter.com/smathieu">
+                                    <img src="images/twitter.png"/>
+                                </a>
+                                <li/>
+                                <li>
+                                <a href="http://www.github.com/smathieu">
+                                    <img src="images/github.png"/>
+                                </a>
+                                <li/>
+                            </ul>
+                            </li>
+                        </ul> 
+                    </div>
+                    <div id="twitter_sidebar" class="sidebar">
+                        <ul>
+                            <li>
+                                <h4><span>Last Tweet</span></h4>
+                                <ul id="tweet_list" class="blocklist">
+                                    <li class="loading">
+                                        <img src="images/loading.gif"/> Loading ...
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="footer">
+            <div class="footer-content">
+
+                <div class="clear"></div> 
+            </div>
+            <div id="footer-links">
+
+                <!-- A link to http://www.spyka.net must remain. To remove link see http://www.spyka.net/licensing -->
+                <p>&copy; YourSite 2010. Website design by <a href="http://www.spyka.net">Free CSS Templates</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
+            </div>  
+        </div>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17782464-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+
+         </script>
+    </body>
+</html>
