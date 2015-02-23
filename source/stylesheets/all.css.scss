@@ -45,9 +45,8 @@ div {
 }
 
 .body {
+  width: 100%;
   @include centre;
-
-  margin-top: 60px;
 
   .abstract {
     text-align: center;
