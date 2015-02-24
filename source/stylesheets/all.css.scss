@@ -31,8 +31,12 @@
   }
 }
 
-h1, div, p {
+h1, div, p, a {
   font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: black;
 }
 
 h1 {
@@ -48,12 +52,9 @@ div {
   width: 100%;
   @include centre;
 
-  .abstract {
-    text-align: center;
-  }
+  text-align: center;
 
   .logos {
-    text-align: center;
     width: 100%;
 
     a {
