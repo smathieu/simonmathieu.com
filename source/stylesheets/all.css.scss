@@ -60,6 +60,15 @@ div {
     a {
       text-decoration: none;
     }
+
+    img {
+      padding-bottom: 3px;
+      border-bottom: solid 1px white;
+    }
+
+    img:hover {
+      border-bottom: solid 1px black;
+    }
   }
 }
 
