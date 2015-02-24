@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+read -s -p "Password: " PASSWORD
+
+FTP_PASSWORD=$PASSWORD bundle exec middleman deploy
