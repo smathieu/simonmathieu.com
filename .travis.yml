@@ -2,6 +2,8 @@ env:
   grobal:
     - secure: "PNKl0/zhjLPFohOeUTFMnWY/aLvD+O4m6IrdX9iM6FRT1PrfHHzl3Hzd43f4t0Fj0JzObxKuQ2LJqKMtQ5eZLxhRrnWYwqB+pyCVM9bEV69lXQCDbrpwBvUWzpUHNQO95GuRk+a0TL6aFKK50zmVnHTGPXCA9Ky4+2ggMCsfdaE="
 
+# No tests
+script: echo
 after_success:
   - bundle exec middleman deploy
 language: ruby
